@@ -1,5 +1,5 @@
 /* ============================================================
-   STRENGTH MERCHANT — PRODUCT DATABASE
+   ALIGNED FITNESS SUPPLY — PRODUCT DATABASE
    ============================================================
    This is your store's inventory. To add a product, copy one
    of the blocks between { and }, paste it before the closing ],
@@ -26,16 +26,16 @@ const CATEGORIES = [
 
 const PRODUCTS = [
   {
-    id: "sm-hoodie-black",
-    name: "Merchant Heavyweight Hoodie",
+    id: "afs-hoodie-black",
+    name: "Aligned Heavyweight Hoodie",
     category: "clothing",
     price: 54.99,
     image: "",
-    description: "12oz heavyweight cotton hoodie. Cut for lifters — room in the shoulders and arms, no billow at the waist. Screen-printed Strength Merchant crest.",
+    description: "12oz heavyweight cotton hoodie. Cut for lifters — room in the shoulders and arms, no billow at the waist. Screen-printed Aligned Fitness Supply crest.",
     featured: true
   },
   {
-    id: "sm-tee-iron",
+    id: "afs-tee-iron",
     name: "Iron Standard Tee",
     category: "clothing",
     price: 27.99,
@@ -44,7 +44,7 @@ const PRODUCTS = [
     featured: false
   },
   {
-    id: "sm-shorts-train",
+    id: "afs-shorts-train",
     name: "Training Day Shorts",
     category: "clothing",
     price: 34.99,
@@ -53,7 +53,7 @@ const PRODUCTS = [
     featured: false
   },
   {
-    id: "sm-belt-lever",
+    id: "afs-belt-lever",
     name: "10mm Lever Belt",
     category: "accessories",
     price: 119.99,
@@ -62,7 +62,7 @@ const PRODUCTS = [
     featured: true
   },
   {
-    id: "sm-straps-fig8",
+    id: "afs-straps-fig8",
     name: "Figure-8 Lifting Straps",
     category: "accessories",
     price: 21.99,
@@ -71,7 +71,7 @@ const PRODUCTS = [
     featured: false
   },
   {
-    id: "sm-sleeves-knee",
+    id: "afs-sleeves-knee",
     name: "7mm Knee Sleeves (Pair)",
     category: "accessories",
     price: 64.99,
@@ -80,7 +80,7 @@ const PRODUCTS = [
     featured: false
   },
   {
-    id: "sm-chalk-block",
+    id: "afs-chalk-block",
     name: "Block Chalk (8-Pack)",
     category: "accessories",
     price: 15.99,
@@ -89,7 +89,7 @@ const PRODUCTS = [
     featured: false
   },
   {
-    id: "sm-creatine-mono",
+    id: "afs-creatine-mono",
     name: "Creatine Monohydrate — 500g",
     category: "supplements",
     price: 29.99,
@@ -98,8 +98,8 @@ const PRODUCTS = [
     featured: true
   },
   {
-    id: "sm-whey-vanilla",
-    name: "Merchant Whey — Vanilla, 2lb",
+    id: "afs-whey-vanilla",
+    name: "Aligned Whey — Vanilla, 2lb",
     category: "supplements",
     price: 44.99,
     image: "",
@@ -107,7 +107,7 @@ const PRODUCTS = [
     featured: false
   },
   {
-    id: "sm-preworkout",
+    id: "afs-preworkout",
     name: "Opening Bell Pre-Workout",
     category: "supplements",
     price: 39.99,

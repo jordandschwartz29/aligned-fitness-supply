@@ -1,5 +1,5 @@
 /* ============================================================
-   STRENGTH MERCHANT — STORE LOGIC
+   ALIGNED FITNESS SUPPLY — STORE LOGIC
    Handles: rendering products, the shopping cart, and page setup.
    The cart is saved in the browser (localStorage) so it survives
    page reloads. You should not need to edit this file to add
@@ -31,14 +31,14 @@ function productImageHTML(product) {
 
 function getCart() {
   try {
-    return JSON.parse(localStorage.getItem("sm_cart")) || [];
+    return JSON.parse(localStorage.getItem("afs_cart")) || [];
   } catch (e) {
     return [];
   }
 }
 
 function saveCart(cart) {
-  localStorage.setItem("sm_cart", JSON.stringify(cart));
+  localStorage.setItem("afs_cart", JSON.stringify(cart));
   updateCartBadge();
 }
 
@@ -164,7 +164,7 @@ function initProductPage() {
     return;
   }
 
-  document.title = product.name + " — Strength Merchant";
+  document.title = product.name + " — Aligned Fitness Supply";
   const cat = getCategory(product.category);
 
   el.innerHTML =

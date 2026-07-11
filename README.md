@@ -1,11 +1,11 @@
-# Strength Merchant
+# Aligned Fitness Supply
 
 E-commerce site for serious lifters. Plain HTML/CSS/JavaScript — no frameworks, no build step.
 
 ## Folder layout
 
 ```
-strength-merchant/
+aligned-fitness-supply/
 ├── index.html        Homepage (hero, departments, featured)
 ├── shop.html         All products, filterable by category
 ├── product.html      Single product page (uses ?id= in the URL)
@@ -19,10 +19,10 @@ strength-merchant/
 ## Launch on GitHub Pages (one-time setup, ~15 min)
 
 1. Create a free account at github.com (if you don't have one).
-2. Click **+** (top right) → **New repository**. Name it `strength-merchant`, set it **Public**, click **Create repository**.
+2. Click **+** (top right) → **New repository**. Name it `aligned-fitness-supply`, set it **Public**, click **Create repository**.
 3. On the new repo page, click **uploading an existing file**, drag this entire folder's contents in, click **Commit changes**.
 4. Go to **Settings → Pages** (left sidebar). Under "Branch", pick `main` and `/ (root)`, click **Save**.
-5. Wait ~2 minutes. Your site is live at `https://YOUR-USERNAME.github.io/strength-merchant/`.
+5. Wait ~2 minutes. Your site is live at `https://YOUR-USERNAME.github.io/aligned-fitness-supply/`.
 
 Any time you edit a file and re-upload it, the live site updates in a minute or two.
 
