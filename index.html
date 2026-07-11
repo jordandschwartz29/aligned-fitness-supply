@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Strength Merchant — Gear for Serious Lifters</title>
+  <meta name="description" content="Heavyweight apparel, lifting accessories, and third-party tested supplements for serious lifters.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="home">
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="wordmark">Strength<span>Merchant</span></a>
+      <nav class="main-nav">
+        <a href="shop.html" class="active">Shop</a>
+        <a href="shop.html?category=clothing">Clothing</a>
+        <a href="shop.html?category=accessories">Accessories</a>
+        <a href="shop.html?category=supplements">Supplements</a>
+        <a href="cart.html" class="cart-link">Cart <span class="cart-count">0</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Provisions for people who <em>pick heavy things up</em></h1>
+      <p>Heavyweight apparel, hardware that outlasts you, and supplements with nothing to hide. No shortcuts sold here.</p>
+      <a href="shop.html" class="btn">Shop All Gear</a>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Departments</h2>
+      <div class="category-grid" id="category-grid"></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Featured</h2>
+      <div class="product-grid" id="featured-grid"></div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>© 2026 Strength Merchant</span>
+      <span>Built heavy. Shipped fast.</span>
+    </div>
+  </footer>
+
+  <script src="products.js"></script>
+  <script src="store.js"></script>
+</body>
+</html>

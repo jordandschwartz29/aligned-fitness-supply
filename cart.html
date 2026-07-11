@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart — Strength Merchant</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="cart">
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="wordmark">Strength<span>Merchant</span></a>
+      <nav class="main-nav">
+        <a href="shop.html">Shop</a>
+        <a href="shop.html?category=clothing">Clothing</a>
+        <a href="shop.html?category=accessories">Accessories</a>
+        <a href="shop.html?category=supplements">Supplements</a>
+        <a href="cart.html" class="cart-link active">Cart <span class="cart-count">0</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container page-head">
+    <h1>Your Cart</h1>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <div id="cart-items"></div>
+      <div class="cart-summary" id="cart-summary">
+        <div class="total">Total: <span id="cart-total">$0.00</span></div>
+        <button class="btn" id="checkout-btn">Checkout</button>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>© 2026 Strength Merchant</span>
+      <span>Built heavy. Shipped fast.</span>
+    </div>
+  </footer>
+
+  <script src="products.js"></script>
+  <script src="store.js"></script>
+</body>
+</html>
